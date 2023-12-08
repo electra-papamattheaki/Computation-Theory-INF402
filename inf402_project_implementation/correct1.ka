@@ -1,0 +1,43 @@
+-- File: useless.ka
+-- A piece of Kappa code for demonstration purposes
+-- It doesn't do anything in particular
+
+-- check that const works
+const N = -100: integer;
+
+-- random variable definition
+a, b: integer;
+
+-- check function definition
+def cube(i: integer)-> integer:
+
+-- check if 
+if (n < 0):
+    return i*i*i;
+else:
+    return i*i;
+endif;
+enddef;
+
+-- check main 
+def main():    
+    
+ n1=0: integer;
+ n2=1: integer; 
+ n3,i,number: integer;    
+ 
+ number = readInteger();
+
+ -- check for
+ for num in [2: number+1: 1]:
+  n3 = n1+n2;    
+  n1 = n2;    
+  n2 = n3;  
+  n1 = n2 % n3; 
+  if (n2 <= 400):
+    n1 =  n2 / n3;  
+  endif; 
+ endfor;
+
+  return 0;  
+ enddef; 

@@ -1,0 +1,35 @@
+-- Another program that doesn't have a specific reason 
+-- used for demonstration purposes!
+
+-- comp only works this way..
+comp Address:
+  #street: str;
+  #number: integer;
+  #city: str;
+
+def cube(i: integer)-> integer:
+
+if (n < 0):
+    return i*i*i;
+else:
+    return i*i;
+endif;
+enddef;
+
+endcomp;
+
+def main():    
+
+a: scalar;
+b: boolean; 
+c: str; 
+d, e, f, g: integer; 
+
+enddef;
+
+def anotherfunc(i:integer, j:integer) -> scalar:
+  i = j; 
+enddef;
+
+
+
