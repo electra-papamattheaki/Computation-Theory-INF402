@@ -1,2 +1,2 @@
 # Computation-Theory-INF402
-Class project for Computation Theory (INF402) developed during my studies at Technical University of Crete.
+Project developed for the course Computation Theory (INF402) at Technical University of Crete during my studies.
